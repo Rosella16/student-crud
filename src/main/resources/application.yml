@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: student
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/student
+    username: postgres
+    password: rosella22
+  jpa:
+    hibernate:
+      ddl-auto: update
+
